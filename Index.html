@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>DEEPX SMART - حلول المكاتب الذكية والطباعة</title>
+  
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  
+  <style>
+    body {
+      background-color: #000000;
+      color: #D3D3D3;
+      font-family: 'Tajawal', sans-serif;
+      overflow-x: hidden;
+    }
+    .navbar {
+      background-color: #000000 !important; /* نفس لون الفوتر */
+      border-bottom: 2px solid #7C4DFF; /* لمسة بنفسجية متكاملة مع الفوتر */
+      box-shadow: 0 4px 15px rgba(0,0,0,0.6);
+    }
+    .hero {
+      background: linear-gradient(to bottom, #001122, #000000);
+      padding: 200px 0 140px;
+      text-align: center;
+    }
+    .accent { color: #7C4DFF; }
+    .btn-whatsapp {
+      background-color: #25D366;
+      border: none;
+      transition: all 0.3s;
+    }
+    .btn-whatsapp:hover {
+      background-color: #20b358;
+      transform: scale(1.05);
+    }
+    .category-card {
+      background-color: #0A2540;
+      border: none;
+      border-radius: 16px;
+      overflow: hidden;
+      transition: all 0.4s ease;
+    }
+    .category-card:hover {
+      transform: translateY(-12px);
+      box-shadow: 0 15px 40px rgba(124, 77, 255, 0.25);
+    }
+    .category-img {
+      height: 240px;
+      object-fit: cover;
+      width: 100%;
+    }
+    .social-icon {
+      font-size: 2.3rem;
+      color: #7C4DFF;
+      transition: all 0.4s ease;
+    }
+    .social-icon:hover {
+      color: #ffffff;
+      transform: scale(1.4) rotate(15deg);
+    }
+    .hover-link {
+      transition: all 0.3s ease;
+      color: #D3D3D3;
+      text-decoration: none;
+    }
+    .hover-link:hover {
+      color: #7C4DFF !important;
+      padding-right: 12px;
+    }
+    footer {
+      border-top: 3px solid #7C4DFF;
+      background-color: #000000;
+      padding: 80px 0 40px;
+    }
+    .footer-col h5 {
+      color: #7C4DFF;
+      margin-bottom: 25px;
+      font-weight: 700;
+    }
+    .footer-col ul {
+      padding: 0;
+      list-style: none;
+    }
+    .footer-col ul li {
+      margin-bottom: 12px;
+    }
+    .footer-contact p {
+      margin-bottom: 10px;
+      font-size: 0.95rem;
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Navbar بنفس لون الفوتر -->
+  <nav class="navbar navbar-dark fixed-top">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="aaa.jpeg" alt="SMARTDEEPX " width="80">
+      </a>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="container">
+      <h1 class="display-3 fw-bold accent mb-3" data-aos="fade-down">SMARTDEEPX </h1>
+      <p class="lead fs-4 mb-5">طابعات • أحبار أصلية وبديلة • لابتوبات وأجهزة كمبيوتر • قرطاسية بأسعار تنافسية ممتازة</p>
+      <a href="https://wa.me/+966531250124?text=مرحبا%20DEEPX%20SMART،%20أريد%20عرض%20سعر" class="btn btn-lg btn-whatsapp" data-aos="zoom-in" data-aos-delay="300">
+        <i class="bi bi-whatsapp me-2"></i> اطلب عرض سعر الآن
+      </a>
+    </div>
+  </section>
+
+  <!-- فئات المنتجات -->
+  <section class="py-5">
+    <div class="container">
+      <h2 class="text-center mb-5 accent fw-bold" data-aos="fade-up">فئات منتجاتنا الرئيسية</h2>
+      <div class="row g-4">
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="100">
+          <div class="category-card text-center">
+            <img src="https://thumbs.dreamstime.com/b/one-new-modern-printer-isolated-white-371746896.jpg" class="category-img" alt="طابعات">
+            <div class="p-4">
+              <h5 class="accent">طابعات</h5>
+              <p class="small mb-3">طابعات حديثة عالية الجودة</p>
+              <a href="https://wa.me/+966531250124?text=أريد%20عرض%20سعر%20لطابعات" class="btn btn-sm btn-whatsapp">اطلب عرض سعر</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="200">
+          <div class="category-card text-center">
+            <img src="http://www.bluesummitsupplies.com/cdn/shop/articles/printer-ink-01_767edf88-f1f8-43a6-b0ce-48bff703a284.png?v=1595950004&width=2500" class="category-img" alt="أحبار">
+            <div class="p-4">
+              <h5 class="accent">أحبار أصلية وبديلة</h5>
+              <p class="small mb-3">جودة مضمونة وأسعار تنافسية</p>
+              <a href="https://wa.me/+966531250124?text=أريد%20عرض%20سعر%20للأحبار" class="btn btn-sm btn-whatsapp">اطلب عرض سعر</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="300">
+          <div class="category-card text-center">
+            <img src="https://media.istockphoto.com/id/1954422116/photo/a-laptop-with-a-blank-screen-sits-on-a-stylish-wooden-desk-within-a-loft-style-interior-with.jpg?s=612x612&w=0&k=20&c=iFhjj3nxrMmgMRbdy614VBP6OOmI9PT3WMVBlRkNkTM=" class="category-img" alt="لابتوبات">
+            <div class="p-4">
+              <h5 class="accent">لابتوبات وكمبيوترات</h5>
+              <p class="small mb-3">أجهزة عالية الأداء للأعمال</p>
+              <a href="https://wa.me/+966531250124?text=أريد%20عرض%20سعر%20للابتوبات" class="btn btn-sm btn-whatsapp">اطلب عرض سعر</a>
+            </div>
+          </div>
+        </div>
+
+        <div class="col-md-3" data-aos="fade-up" data-aos-delay="400">
+          <div class="category-card text-center">
+            <img src="https://thumbs.dreamstime.com/b/brightly-colored-office-supplies-arranged-neatly-purple-background-including-pens-markers-sticky-notes-calculator-378445496.jpg" class="category-img" alt="قرطاسية">
+            <div class="p-4">
+              <h5 class="accent">قرطاسية</h5>
+              <p class="small mb-3">أدوات كتابة وتنظيم مكتبي</p>
+              <a href="https://wa.me/+966531250124?text=أريد%20عرض%20سعر%20للقرطاسية" class="btn btn-sm btn-whatsapp">اطلب عرض سعر</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="100">
+          <img src="aaa.jpeg" alt="SMARTDEEPX" width="220" class="mb-4">
+          <p class="mb-4 text-muted">حلول مكتبية متكاملة بجودة عالية وأسعار تنافسية في المملكة العربية السعودية</p>
+          <p class="text-muted small mb-4">© 2026 DEEPX SMART - جميع الحقوق محفوظة</p>
+          <div class="d-flex gap-4">
+            <a href="https://facebook.com/deepxsmart" target="_blank" class="social-icon"><i class="bi bi-facebook"></i></a>
+            <a href="https://instagram.com/deepxsmart" target="_blank" class="social-icon"><i class="bi bi-instagram"></i></a>
+            <a href="https://x.com/deepxsmart" target="_blank" class="social-icon"><i class="bi bi-twitter-x"></i></a>
+            <a href="https://linkedin.com/company/deepxsmart" target="_blank" class="social-icon"><i class="bi bi-linkedin"></i></a>
+            <a href="https://wa.me/+966531250124" target="_blank" class="social-icon"><i class="bi bi-whatsapp"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-4 mb-5 mb-lg-0" data-aos="fade-up" data-aos-delay="200">
+          <h5>روابط سريعة</h5>
+          <ul>
+            <li><a href="#" class="hover-link">الرئيسية</a></li>
+            <li><a href="#" class="hover-link">عن الشركة</a></li>
+            <li><a href="#" class="hover-link">لماذا نحن</a></li>
+            <li><a href="#" class="hover-link">المنتجات</a></li>
+            <li><a href="#" class="hover-link">الخدمات</a></li>
+            <li><a href="#" class="hover-link">الشركاء</a></li>
+            <li><a href="#" class="hover-link">اتصل بنا</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-4" data-aos="fade-up" data-aos-delay="300">
+          <h5>تواصل معنا</h5>
+          <div class="footer-contact">
+            <p><i class="bi bi-geo-alt-fill me-2"></i> الرياض، المملكة العربية السعودية</p>
+            <p><i class="bi bi-telephone-fill me-2"></i> 0531250124</p>
+            <p><i class="bi bi-whatsapp me-2"></i> <a href="https://wa.me/+966531250124" class="text-muted">واتساب</a></p>
+            <p><i class="bi bi-envelope-fill me-2"></i> info@deepxsmart.com</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="text-center mt-5 pt-4 border-top border-secondary">
+        <small class="text-muted">تصميم وتطوير © DEEPX SMART 2026</small>
+      </div>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>
+    AOS.init({
+      duration: 900,
+      once: true,
+      easing: 'ease-in-out'
+    });
+  </script>
+</body>
+</html>
